@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,700;1,700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Balsamiq Sans", sans-serif;
+}
+
+h1 {
+  font-size: 54px;
+  font-style: italic;
+  text-transform: capitalize;
+  letter-spacing: 8px;
+  text-decoration: underline;
+  background-color: cornsilk;
+  text-decoration-style: wavy;
+  text-decoration-color: teal;
+  text-align: center;
+  text-shadow: 5px 4px 6px #222; /*offset-x,offset-y,dark value,color*/
+}
+
+p {
+  font-size: 36px;
+  background-color: powderblue;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 45px;
+}
+
+.btn {
+  text-align: center;
+}
+
+button {
+  font-style: italic;
+  background-color: darkkhaki;
+  border: none;
+  font-weight: 900;
+  padding: 8px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+P::first-letter{
+  font-size: 65px;
+  font-weight: bolder;
+  font-style: italic;
+}
