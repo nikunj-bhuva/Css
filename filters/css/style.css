@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  /* filter: grayscale(); background ne black&white karva mate */
+  /* filter: blur(2px); image ne blur karvi hoy tena mate pixel ma apva mate */
+  /* filter: brightness(
+    150%
+  ); image ni brightness vadhare hoy tena mate brightness no use thay che tema by default iamge ni brightness 100% hoy che jo vadharvi hoy brightness to 100% ni uper apvanu ane jo brightness img ni low karvi hoy to 100% ni niche brightness apvani */
+  /* filter: contrast(170%); */
+  /* filter: saturate(7); */
+  /* filter: invert(); */
+  /* filter: opacity(0.3); */
+  filter: blur(2px) grayscale(0.1) contrast(170%); /*filter ma tame multiple values ek sathe pn use kari sako*/
+}
+
+img {
+  filter: drop-shadow(20px 20px 8px rgba(0, 0, 0, 0.5));
+}
