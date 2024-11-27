@@ -1,0 +1,27 @@
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 0, 0, 0.8);
+  background-color: rgb(222, 219, 219);
+  padding: 8px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+a:active {
+  color: blue; /*click kri rakhiye tayre anchor tag ni state change thay che khali*/
+}
+
+a:hover {
+  color: orange; /*jayre mouse lay jay anchor tag mathe tayre text no color change thay che*/
+}
