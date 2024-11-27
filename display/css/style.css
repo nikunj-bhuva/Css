@@ -1,0 +1,21 @@
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+div > p {
+  background-color: rgb(82, 82, 255);
+  color: white;
+  padding: 5px;
+}
+
+p + p {
+  display: none;
+}
+
+div > a {
+  background-color: rgb(82, 82, 255);
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
